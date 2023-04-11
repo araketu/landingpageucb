@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #2A0944;
+	color: #3FA796;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+
+.navMenu {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+	color: #3FA796;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: inline-block;
+	width: 80px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+	color: #FEC260;
+}
+
+.navMenu .dot {
+	width: 6px;
+	height: 6px;
+	background: #FEC260;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transform: translateX(30px);
+	transform: translateX(30px);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover~.dot {
+	-webkit-transform: translateX(30px);
+	transform: translateX(30px);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover~.dot {
+	-webkit-transform: translateX(110px);
+	transform: translateX(110px);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover~.dot {
+	-webkit-transform: translateX(200px);
+	transform: translateX(200px);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover~.dot {
+	-webkit-transform: translateX(285px);
+	transform: translateX(285px);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+#kobralogo{
+	height: 80px;
+	weight: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#kobraperfil{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#site{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	left: auto;
+	padding: 1;
+}
+.footer {
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: #2A0944;
+  color: #3FA796;
+}
+
+.section{
+	background-color: #ffffff;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    text-align: justify;
+	font-size: 20pt;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 0px solid;
+    padding: 5px 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.tela{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
