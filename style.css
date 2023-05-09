@@ -124,6 +124,12 @@ ul {
   width: 100%;
   background-color: #2A0944;
   color: #3FA796;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 40px 0;
+  overflow: hidden;
+
 }
 
 .section{
@@ -164,5 +170,24 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
