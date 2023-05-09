@@ -89,7 +89,7 @@ ul {
 	opacity: 1;
 }
 
-#kobralogo{
+#kobralogo {
 	height: 80px;
 	weight: 40px;
 	display: flex;
@@ -97,7 +97,7 @@ ul {
 	justify-content: space-between;
 }
 
-#kobraperfil{
+#kobraperfil {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -105,7 +105,7 @@ ul {
 	justify-content: space-between;
 }
 
-#site{
+#site {
 	height: 95%;
 	width: 95%;
 	display: flex;
@@ -113,58 +113,75 @@ ul {
 	justify-content: space-between;
 }
 
-.logo{
+.logo {
 	left: auto;
 	padding: 1;
 }
+
 .footer {
-  position: relative;
-  float: left;
-  height: 100px;
-  width: 100%;
-  background-color: #2A0944;
-  color: #3FA796;
-  position: relative;
-  float: left;
-  width: 100%;
-  padding: 40px 0;
-  overflow: hidden;
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: #2A0944;
+	color: #3FA796;
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	overflow: hidden;
 
 }
 
-.section{
+.section {
 	background-color: #ffffff;
 }
 
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100%;
+	width: 100%;
+}
+
+
+.card {
+	width: auto;
+	height: auto;
+	margin-top: 2px;
+	margin-left: 2px;
+	border-radius: 10px;
+	border: 0px solid;
+	padding: 5px 10px;
+
+	display: flex;
+	flex-direction: column;
 }
 
 .text {
-    height: 100%;
-    display: flex;
-    text-align: justify;
-	font-size: 20pt;
+	height: 100%;
+	display: flex;
+	text-align: justify;
+
+	font-size: 28px;
+	line-height: 1.5;
+	color: #555555;
+	margin-top: 30px;
+	margin-right: 10px;
 }
 
-.card {
-    width: auto;
-    height: auto;
-    margin-top: 2px;
-    margin-left: 2px;
-    border-radius: 10px;
-    border: 0px solid;
-    padding: 5px 10px;
-    
-    display: flex;
-    flex-direction: column;
+.home-text {
+	height: 100%;
+	display: flex;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #555555;
+	margin-top: 30px
 }
 
-.tela{
+.tela {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -174,20 +191,37 @@ ul {
 
 
 .container {
-    max-width: 1200px;
-    margin: 0px auto;
-    position: relative;
+	max-width: 0px auto;
+	margin: 0px auto;
+	position: relative;
 }
 
 .footer-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
+.video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px
+}
+
+.bt-yt {
+	background-color: #2A0944;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px 30px;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
