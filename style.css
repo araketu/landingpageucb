@@ -8,8 +8,8 @@
 }
 
 header {
-	height: 100px;
-	width: 100%;
+	height: 150px;
+	width: 150%;
 	background-color: #2A0944;
 	color: #3FA796;
 }
@@ -32,10 +32,10 @@ ul {
 .navMenu a {
 	color: #3FA796;
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 500;
-	display: inline-block;
+	/* display: inline-block; */
 	width: 80px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -58,24 +58,24 @@ ul {
 }
 
 .navMenu a:nth-child(1):hover~.dot {
-	-webkit-transform: translateX(30px);
-	transform: translateX(30px);
+	-webkit-transform: translateX(55px);
+	transform: translateX(55px);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	opacity: 1;
 }
 
 .navMenu a:nth-child(2):hover~.dot {
-	-webkit-transform: translateX(110px);
-	transform: translateX(110px);
+	-webkit-transform: translateX(180px);
+	transform: translateX(180px);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	opacity: 1;
 }
 
 .navMenu a:nth-child(3):hover~.dot {
-	-webkit-transform: translateX(200px);
-	transform: translateX(200px);
+	-webkit-transform: translateX(295px);
+	transform: translateX(295px);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	opacity: 1;
@@ -121,8 +121,8 @@ ul {
 .footer {
 	position: relative;
 	float: left;
-	height: 100px;
-	width: 100%;
+	height: 150px;
+	width: 150px;
 	background-color: #2A0944;
 	color: #3FA796;
 	position: relative;
@@ -206,6 +206,11 @@ ul {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+.footer-bloco{
+	padding-right: 5%;
+	font-size: 18px;
 }
 
 .video {
